@@ -1,0 +1,16 @@
+
+@startuml "Copa"
+
+left to right direction
+actor User as u
+
+package Copa {
+usercase "Listar jogos" as UC1
+usecase "Listar Times" as UC2
+}
+
+
+u --> UC1
+u --> UC2
+
+@enduml
